@@ -8,6 +8,31 @@
     font-size: 20px
 }
 
-p{
+/*p{
     background-color: aliceblue;
+}*/
+
+a:link{
+    color: chocolate
+}
+
+a:visited{
+    color: green
+}
+
+a:hover{
+    background-color: black;
+    color: white
+}
+
+a:active{
+    background-color: red;
+    color: black;
+}
+
+p:nth-child(even){
+    background-color: blue;
+}
+p:nth-child(odd){
+    background-color: green;
 }
